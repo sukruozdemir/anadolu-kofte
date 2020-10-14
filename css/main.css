@@ -1,4 +1,6 @@
-@font-face { font-family: ScriptMTBold; src: url('../fonts/ScriptMTBold.ttf'); } 
+@font-face { font-family: ScriptMTBold; src: url('../fonts/ScriptMTBold.ttf'); }
+@font-face { font-family: ConstantiaBold; src: url('../fonts/constanb.ttf'); } 
+@font-face { font-family: ConstantiaRegular; src: url('../fonts/constan.ttf'); } 
 
 /* Custom styles */
 
@@ -87,7 +89,7 @@ textarea:focus, .form-control:focus, button:focus {
 
 body {
   color: #777777;
-  font-family: "Roboto", sans-serif;
+  font-family: "ConstantiaRegular";
   font-size: 15px;
   font-weight: 400;
   line-height: 1.7;
@@ -153,8 +155,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: "Playfair Display", serif;
+h6 { 
+  font-family: ConstantiaRegular;
   color: #000;
   line-height: 1.2em;
   margin-bottom: 0;
@@ -169,7 +171,7 @@ h6 {
 .h6 {
   margin-bottom: 0;
   margin-top: 0;
-  font-family: "Playfair Display", serif;
+  font-family: ConstantiaRegular;
   font-weight: normal;
   color: #000; }
 
@@ -1942,7 +1944,7 @@ h1, h2, h3, h4, h5, h6 {
 ============================================================================================ */
 .home-banner-area {
   /* Location of the image */
-  background-image: url(../images/header-bg.png);
+  background-image: url(../images/anadolu-kofte-eski.jpg);
   
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -1969,7 +1971,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     right: 0;
     background: #000000;
-    opacity: .6;
+    opacity: .35;
 }
 .home-banner-area .height {
     height: 750px; }
@@ -1982,26 +1984,30 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff; }
   .home-banner-content h1 {
     color: #fff;
-    font-size: 90px;
-    font-family: ScriptMTBold;
+    font-size: 80px;
+    font-family: ConstantiaBold;
     text-transform: lowercase;
-    letter-spacing: 8.8px; }
+    /* letter-spacing: 8.8px; */ }
+  .home-banner-content p {
+    font-size: 80px;
+    font-family: ConstantiaBold;
+    text-transform: lowercase;
+    padding-top: 0px; }
     @media (max-width: 991px) {
       .home-banner-content h1 br {
         display: none; } }
     @media (max-width: 1199px) {
       .home-banner-content h1 {
+        font-size: 40px; }
+      .home-banner-content p {
         font-size: 40px; } }
     @media (max-width: 414px) {
       .home-banner-content h1 {
+        font-size: 40px; }
+      .home-banner-content p {
         font-size: 40px; } }
   .home-banner-content hr {
     border-color: rgba(255, 255, 255, 0.4); }
-  .home-banner-content p {
-    font-size: 85px;
-    font-family: ScriptMTBold;
-    text-transform: lowercase;
-    padding-top: 0px; }
 
 /* End Home Banner Area 
 ============================================================================================ */
