@@ -735,6 +735,7 @@ th {
   width: 92px; }
   .fixed-view-menu p,
   .fixed-book-table p {
+    text-align: center;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
@@ -1801,10 +1802,10 @@ h1, h2, h3, h4, h5, h6 {
 .logo {
   text-align: center; }
   .logo img {
-    width: 27%; }
+    width: 50%; }
     @media (max-width: 767px) {
       .logo img {
-        width: 16%; } }
+        width: 35%; } }
     @media (max-width: 576px) {
       .logo img {
         width: 24%; } }
@@ -1813,14 +1814,14 @@ h1, h2, h3, h4, h5, h6 {
         width: 35%; } }
     @media (max-width: 320px) {
       .logo img {
-        width: 75%; } }
+        width: 100%; } }
   @media (max-width: 767px) {
     .logo {
       position: absolute;
       top: 9px; } }
 
 .header-area {
-  padding: 10px 0;
+  padding: 0;
   position: relative;
   background-color: #fff;
   width: 100%;
